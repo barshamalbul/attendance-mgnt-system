@@ -1,0 +1,5 @@
+ SELECT * FROM tbl_students s
+        INNER JOIN tbl_students_class  sc ON s.Sid = sc.Sid
+        INNER JOIN  tbl_students_attendance sca  ON  s.Sid =  sca.Sid
+        where sc.class='$class' and sc.section='$section' 
+        and sca.date between '$startdate' and '$enddate' ;";

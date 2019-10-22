@@ -1,0 +1,5 @@
+$_SESSION['role']
+role of a user if logged 
+
+$_SESSION['user_id']=$uid_var;
+//uid of user logged in
